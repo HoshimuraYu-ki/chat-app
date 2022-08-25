@@ -1,0 +1,36 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  width: 300px;
+  background-color:#253141 ;
+}
+.user-menu{
+  height: 100px;
+  padding:0 20px;
+}
+.rooms-list{
+  height:calc(100vh - 100px);
+  background-color: #253151;
+  padding:0 20px;
+}
+
+.main-view{
+  width:calc(100vw - 300px);
+  background-color: #ffffff;
+}
+.main-view-top{
+  height: 100px;
+  padding:0 40px;
+}
+.chat-view{
+  height:calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding:46px 40 0;
+}
+.main-view-bottom{
+  height: 90px;
+  background-color:#DDDDDD;
+  padding:20px 40;
+}
