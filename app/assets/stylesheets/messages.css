@@ -9,13 +9,36 @@
 .user-menu{
   height: 100px;
   padding:0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+
+}
+.new-room-btn a{
+  color: deepskyblue;
+  font-size: 10px;
+  padding:14px;
+  border: 1px solid lightblue;
+  text-decoration: none;
 }
 .rooms-list{
   height:calc(100vh - 100px);
   background-color: #253151;
   padding:0 20px;
+  overflow: scroll;
 }
-
+.chat-room{
+  padding:20px 0 40px;
+}
+.room-name a{
+  color: white;
+  text-decoration: none;
+}
 .main-view{
   width:calc(100vw - 300px);
   background-color: #ffffff;
