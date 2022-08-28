@@ -6,14 +6,7 @@
 </div>
 
 <div class=chat_view>
-  <div class=chat-text-box>
-   <div class=chat-text-top>
-    <span class=chat-text-name>user</span>
-    <span class=chat-text-time>yyyy/mm/dd(aaa)hh:mm:ss</span>
-   </div>
-   <div class=chat-text-message>おはよう</div>
-  </div>
-
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
