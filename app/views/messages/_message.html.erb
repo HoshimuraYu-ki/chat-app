@@ -1,7 +1,7 @@
   <div class=chat-text-box>
    <div class=chat-text-top>
     <span class=chat-text-name><%= message.user.name %></span>
-    <span class=chat-text-time><%= message.created_at %></span>
+    <span class=chat-text-time><%=l message.created_at %></span>
    </div>
    <div class=chat-text-message><%= message.content %></div>
   </div>
