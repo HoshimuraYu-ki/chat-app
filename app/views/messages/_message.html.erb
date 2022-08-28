@@ -4,4 +4,5 @@
     <span class=chat-text-time><%=l message.created_at %></span>
    </div>
    <div class=chat-text-message><%= message.content %></div>
-  </div>
+  </div>    <%= image_tag message.image.variant(resize: '500x500'), class: 'message-image' if message.image.attached? %>
+</div>
